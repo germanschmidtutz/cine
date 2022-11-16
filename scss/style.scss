@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+  max-width: 100%;
+  background-color: black;
+}
+
+
+// FUENTES
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
+
+
+
+
+// generales
+
+a:link, a:visited, a:active, a:hover{
+    text-decoration:none !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+// navbar
+
+#navbar{
+  max-width: 100%;
+
+  .navbar-nav{
+
+    display: flex !important;
+    
+
+}
+
+background-color: rgb(0, 0, 0, 0.5) !important;
+text-transform: uppercase;
+
+a.nav-link{
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  // width: 100% !important;
+  margin-left: auto;
+  }
+
+
+  .nav-link:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.navbar-brand{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
+}
+
+
+.navbar-brand:hover{
+    background-color: white;
+    color: black;
+}
+
+
+  .navbar-toggle .icon-bar{
+    width: 50px !important;
+    height:3px !important;
+  }
+
+
+
+.navbar-toggler-icon {
+    background-image: url(https://icon-library.com/images/white-hamburger-menu-icon/white-hamburger-menu-icon-24.jpg) !important;
+    background-size: 100px  ;
+    opacity: 50%;
+}
+
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+}
+
+// navbar PC
+
+@media only screen and (min-width: 992px) {
+  #navbar{
+    max-width: 100%;
+
+    .navbar-nav{
+        display: flex !important;
+        justify-content: flex-end !important;
+        max-width: 100% !important; 
+
+    }
+
+
+    background-color: black !important;
+    text-transform: uppercase;
+
+
+    
+    a.nav-link{
+        color: rgb(255, 255, 255);
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.1em;
+        width: auto!important;
+        padding-top: 25px;
+
+        }
+
+
+    .nav-link:hover{
+        background-color: white;
+        color: black;
+    }
+
+
+    .navbar-brand{
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.5em;
+        margin-right: 10em;
+    }
+
+
+    .navbar-brand:hover{
+        background-color: white;
+        color: black;
+    }
+
+
+      .navbar-toggle .icon-bar{
+        width: 50px !important;
+        height:3px !important;
+      }
+
+
+
+    .navbar-toggler-icon {
+        background-image: url(https://icon-library.com/images/white-hamburger-menu-icon/white-hamburger-menu-icon-24.jpg) !important;
+        background-size: 100px  ;
+   }
+}
+
+}
+
+// fin navbar
+
+// celular
+
+@media only screen and (max-width: 991px) {
+
+    // generales
+
+    .espacioDebajo{
+        margin-bottom: 10vh;
+      }
+
+      .espacioChicoDebajo{
+        margin-bottom: 3vh;
+      }
+    
+      .espacioArriba{
+        margin-top: 10vh;
+      }
+      
+      .espacioChicoArriba{
+        margin-top: 2vh;
+      }
+
+      .disp{
+        display: flex;
+        justify-content: center;
+    }
+
+    .boton{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        background-color: rgb(0, 38, 255);
+        padding: 10px;
+        border-radius: 3px;
+        font-family: 'Antonio', sans-serif;
+        position: relative;
+        top: 40vh;
+    }
+    
+
+
+    //HOME
+
+      .imgHome{
+        width: 70%;
+        position: relative;
+        top: 30vh;
+      }
+
+      .animate__animated.animate__fadeIn {
+        --animate-duration: 5s;
+      }
+
+
+    
+
+
+      #botonHome{
+    position: relative;
+    top: 35vh;
+    background-color: rgb(57, 85, 225);
+    color: white !important;
+    padding: 10px;
+    font-size: 3.5vh;
+      }
+
+      
+
+    // FIN HOME
+
+
+    // prueba video
+
+    #videoprueba{
+      box-shadow: 0 0 25px rgb(68, 155, 255);
+    }
+
+
+    // home.html
+
+    .carousel{
+      max-width: 100%;
+    }
+
+
+
+
+    }
+    // fin celular
+
+
+
+    //  PC y TABLET
+
+@media only screen and (min-width: 992px) {
+
+
+    // generales
+
+    .espacioDebajo{
+        margin-bottom: 10vh;
+      }
+
+      .espacioChicoDebajo{
+        margin-bottom: 3vh;
+      }
+    
+      .espacioArriba{
+        margin-top: 10vh;
+      }
+      
+      .espacioChicoArriba{
+        margin-top: 2vh;
+      }
+
+
+    }
