@@ -10,5 +10,5 @@ botonHome.style.visibility = "hidden"
 setTimeout(() => {
     
     botonHome.style.visibility = "visible"
-}, 1    000);
+}, 1000);
 

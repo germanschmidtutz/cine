@@ -11,13 +11,29 @@
 
 
 
-   <div class="disp espacioArriba"> <video controlslist="nodownload" class="espacioArriba" id="videoprueba" width="90%" height="auto" controls >
-        <source src="./../videos/el secreto de mar del plata.mp4" type="video/mp4">
+   <div class="disp espacioArriba"> <video id="video" controlslist="nodownload" class="espacioArriba" id="videoprueba" width="90%" height="auto" controls >
+        <source src="./../videos/teoria ig.mp4" type="video/mp4">
         Tu navegador no soporta los vídeos de HTML5
     </video></div>
 
 
+    <br><br><br>
 
     
+
+<div class="disp"><audio id="video" controls controlslist="nodownload">
+    <source src="./../videos/teoria sobre redes.mp3" type="audio/mp3">
+        Tu navegador no soporta audio HTML5.
+</audio></div>
+
+<br><br><br>
+
+
+  <!-- sweet alert -->
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  
+  <script src="./../js/video.js"></script>
 </body>
 </html>

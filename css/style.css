@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -18,39 +19,42 @@ a {
 }
 
 #navbar {
-  max-width: 100%;
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  width: 100%;
+  height: auto !important;
+  position: fixed;
+  top: 0;
+  z-index: 10 !important;
+  font-family: "Patua One", cursive;
+  text-shadow: 0 0 0.5rem rgb(47, 171, 202);
+  background-color: rgba(0, 0, 0, 0.8) !important;
   text-transform: uppercase;
+}
+#navbar .navbar-toggler-icon {
+  background-image: url("https://i.postimg.cc/YSwdFJpY/barras-navbar.png") !important;
 }
 #navbar .navbar-nav {
   display: flex !important;
+}
+#navbar .logoNavbar {
+  width: 6rem;
 }
 #navbar a.nav-link {
   color: rgb(255, 255, 255);
   font-size: 1.2em;
   margin-left: auto;
 }
-#navbar .nav-link:hover {
-  background-color: white;
-  color: black;
-}
 #navbar .navbar-brand {
   color: white;
   font-family: "Bebas Neue", cursive;
   font-size: 1.5em;
-}
-#navbar .navbar-brand:hover {
-  background-color: white;
-  color: black;
 }
 #navbar .navbar-toggle .icon-bar {
   width: 50px !important;
   height: 3px !important;
 }
 #navbar .navbar-toggler-icon {
-  background-image: url(https://icon-library.com/images/white-hamburger-menu-icon/white-hamburger-menu-icon-24.jpg) !important;
+  background-image: url(https://i.postimg.cc/YSwdFJpY/barras-navbar.png) !important;
   background-size: 100px;
-  opacity: 50%;
 }
 #navbar .navbar-toggler,
 #navbar .navbar-toggler:focus,
@@ -124,17 +128,6 @@ a {
     justify-content: center;
   }
 
-  .boton {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    background-color: rgb(0, 38, 255);
-    padding: 10px;
-    border-radius: 3px;
-    font-family: "Antonio", sans-serif;
-    position: relative;
-    top: 40vh;
-  }
-
   .imgHome {
     width: 70%;
     position: relative;
@@ -148,10 +141,6 @@ a {
   #botonHome {
     position: relative;
     top: 35vh;
-    background-color: rgb(57, 85, 225);
-    color: white !important;
-    padding: 10px;
-    font-size: 3.5vh;
   }
 
   #videoprueba {
@@ -159,7 +148,228 @@ a {
   }
 
   .carousel {
-    max-width: 100%;
+    max-width: 100% !important;
+    transition: transform 20000s ease;
+  }
+
+  .carouselCategorias {
+    display: flex !important;
+    justify-content: start;
+    padding-left: 1.1%;
+  }
+
+  .carousel-item {
+    transition: transform 0.1s ease;
+  }
+
+  .fotoCarouselCategorias {
+    width: 40% !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    transition: transform 20000s ease;
+  }
+
+  .textoCategorias {
+    color: rgb(255, 255, 255);
+    font-family: "Patua One", cursive;
+    text-shadow: 0 0 0.5rem rgb(47, 171, 202);
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .nombreProductora {
+    color: rgb(255, 255, 255);
+    font-family: "Patua One", cursive;
+    text-shadow: 0 0 0.8rem rgb(47, 171, 202);
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .infoProductora {
+    color: rgb(255, 255, 255);
+    font-family: "Patua One", cursive;
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .tituloPoster {
+    color: rgb(255, 255, 255);
+    font-family: "Patua One", cursive;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .posterProductora {
+    width: 70%;
+    box-shadow: 0 0 0.3rem rgb(47, 171, 202);
+  }
+
+  .descripcionPoster {
+    color: rgb(255, 255, 255);
+    font-family: "Patua One", cursive;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .infoPoster {
+    color: rgb(255, 255, 255);
+    font-family: "Patua One", cursive;
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .botonPoster {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(47, 171, 202);
+    padding: 15px;
+    border-radius: 5px;
+    font-family: "Patua One", cursive;
+    font-size: 1.3rem;
+    box-shadow: 1px 2px 36px 1px rgb(47, 171, 202);
+    -webkit-box-shadow: 1px 2px 36px 1px rgb(47, 171, 202);
+    -moz-box-shadow: 1px 2px 36px 1px rgb(47, 171, 202);
+    -webkit-text-stroke: 0.5px black;
+  }
+
+  .botonPoster:hover {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(47, 171, 202);
+    padding: 15px;
+    border-radius: 5px;
+    font-family: "Patua One", cursive;
+    font-size: 1.3rem;
+    box-shadow: 1px 2px 36px 1px rgb(47, 171, 202);
+    -webkit-box-shadow: 1px 2px 36px 1px rgb(47, 171, 202);
+    -moz-box-shadow: 1px 2px 36px 1px rgb(47, 171, 202);
+    -webkit-text-stroke: 0.5px black;
+  }
+
+  .botonPoster:active {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(47, 171, 202);
+    padding: 15px;
+    border-radius: 5px;
+    font-family: "Patua One", cursive;
+    font-size: 1.3rem;
+    box-shadow: 1px 2px 36px 1px rgb(47, 171, 202);
+    -webkit-box-shadow: 1px 2px 36px 1px rgb(47, 171, 202);
+    -moz-box-shadow: 1px 2px 36px 1px rgb(47, 171, 202);
+    -webkit-text-stroke: 0.5px black;
+  }
+
+  .botonPoster:visited {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(47, 171, 202);
+    padding: 15px;
+    border-radius: 5px;
+    font-family: "Patua One", cursive;
+    font-size: 1.3rem;
+    box-shadow: 1px 2px 36px 1px rgb(47, 171, 202);
+    -webkit-box-shadow: 1px 2px 36px 1px rgb(47, 171, 202);
+    -moz-box-shadow: 1px 2px 36px 1px rgb(47, 171, 202);
+    -webkit-text-stroke: 0.5px black;
+  }
+
+  .tituloContenido {
+    color: rgb(255, 255, 255);
+    font-family: "Patua One", cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    text-shadow: 0 0 1rem rgb(47, 171, 202);
+  }
+
+  .colaboracion {
+    color: rgb(255, 255, 255);
+    font-family: "Patua One", cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .mp {
+    width: 10rem;
+  }
+
+  .tituloPag {
+    color: rgb(255, 255, 255);
+    font-family: "Patua One", cursive;
+    text-shadow: 0 0 0.8rem rgb(47, 171, 202);
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .infoPag {
+    color: rgb(255, 255, 255);
+    font-family: "Patua One", cursive;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .creadores {
+    color: rgb(255, 255, 255);
+    font-family: "Patua One", cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    text-shadow: 0 0 1rem rgb(47, 171, 202);
+  }
+
+  table {
+    max-width: 100% !important;
+    color: white;
+    font-family: "Patua One", cursive;
+    font-size: 1rem;
+    text-align: center;
+    border: solid white 3px;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    box-shadow: 1px 2px 36px 1px rgb(47, 171, 202);
+    -webkit-box-shadow: 1px 2px 36px 1px rgb(47, 171, 202);
+    -moz-box-shadow: 1px 2px 36px 1px rgb(47, 171, 202);
+  }
+  table th {
+    font-size: 1.1rem;
+    padding: 10px;
+    border: solid white 3px;
+    max-width: 33%;
+  }
+  table td {
+    border: solid white 3px;
+    max-width: 33%;
+  }
+
+  audio {
+    width: 80%;
+  }
+
+  .swal2-popup {
+    font-family: "Patua One", cursive !important;
+    border: solid white 3px !important;
+  }
+
+  .swal2-confirm {
+    background-color: black !important;
+  }
+
+  .swal2-styled {
+    background-color: black !important;
+    color: rgb(47, 171, 202) !important;
   }
 }
 @media only screen and (min-width: 992px) {

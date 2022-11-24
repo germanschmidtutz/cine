@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../css/style.css">
+    <title>La casa - EGP</title>
+</head>
+<body>
+
+<!-- navbar -->
+
+
+<nav class="navbar navbar-expand-lg bg-light" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./../web/home"><img class="logoNavbar" src="./../img/logo-home.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="./../web/home">Home</a>
+          <a class="nav-link active" aria-current="page" href="./../web/creadores">Creadores</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- fin navbar -->
+
+<br><br><br><br><br>
+
+
+
+    <h1 class="tituloContenido">LA CAZA</h1>
+
+
+    <h3 class="tituloContenido espacioArriba" style="font-size: 1.2rem;">Capítulo 1</h3>
+
+   <div class="disp"> <video controlslist="nodownload" class="espacioArriba" id="videoprueba" width="90%" height="auto" controls >
+        <source src="./../videos/la-caza-1.mp4" type="video/mp4">
+        Tu navegador no soporta los vídeos de HTML5
+    </video></div>
+
+    <h3 class="tituloContenido espacioArriba" style="font-size: 1.2rem;">Capítulo 2</h3>
+
+    <div class="disp "> <video controlslist="nodownload" class="espacioArriba" id="videoprueba" width="90%" height="auto" controls >
+         <source src="./../videos/la-casa-2.mp4" type="video/mp4">
+         Tu navegador no soporta los vídeos de HTML5
+     </video></div>
+
+     <h3 class="tituloContenido espacioArriba" style="font-size: 1.2rem;">Capítulo 3</h3>
+
+     <div class="disp"> <video controlslist="nodownload" class="espacioArriba" id="videoprueba" width="90%" height="auto" controls >
+          <source src="./../videos/la-caza-3.mp4" type="video/mp4">
+          Tu navegador no soporta los vídeos de HTML5
+      </video></div>
+
+      <h3 class="tituloContenido espacioArriba" style="font-size: 1.2rem;">Capítulo 4</h3>
+      <div class="disp"> <video controlslist="nodownload" class="espacioArriba" id="videoprueba" width="90%" height="auto" controls >
+        <source src="./../videos/la-caza-4.mp4" type="video/mp4">
+        Tu navegador no soporta los vídeos de HTML5
+    </video></div>
+
+
+    <p class="colaboracion espacioArriba">¿Te gustó este contenido?</p>
+
+    <div class="disp espacioChicoArriba"> <a href="https://mercadopago.com.ar"><button type="button" class="btn btn-primary botonPoster">APOYÁ A SUS CREADORES</button></a></div>
+
+
+   <div class="disp espacioChicoArriba"> <img src="./../img/mp.png" alt="" class="mp"></div>
+
+
+   <div class="disp espacioArriba"> <a href="./../creadores/lgc"><button type="button" class="btn btn-primary botonPoster">VER MÁS DE LGC</button></a></div>
+
+
+
+    <br><br><br>
+
+<div style="display:none;"|>
+  <div id="sfchejwamjqa9ttl12ct813nd9p5e5hflgr"></div><script type="text/javascript" src="https://counter5.optistats.ovh/private/counter.js?c=hejwamjqa9ttl12ct813nd9p5e5hflgr&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas para web"><img src="https://counter5.optistats.ovh/private/contadorvisitasgratis.php?c=hejwamjqa9ttl12ct813nd9p5e5hflgr" border="0" title="contador de visitas para web" alt="contador de visitas para web"></a></noscript></div>
+
+
+  <!-- video -->
+
+  <script src="./../js/video.js"></script>
+
+  <!-- sweet alert -->
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>

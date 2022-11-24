@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../css/style.css">
+    <title>LGC</title>
+</head>
+<body>
+
+<!-- navbar -->
+
+
+<nav class="navbar navbar-expand-lg bg-light" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./../web/home"><img class="logoNavbar" src="./../img/logo-home.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="./../web/home">Home</a>
+          <a class="nav-link active" aria-current="page" href="./../web/creadores">Creadores</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- fin navbar -->
+
+<br><br><br><br><br>
+
+<h1 class="nombreProductora">LGC</h1>
+
+
+<h2 class="infoProductora espacioArriba">LGC es una productora audiovisual fundada en el año 2019. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa blanditiis cum veniam nemo dolore sunt odio sapiente, aut excepturi hic. Voluptate, quod rerum vitae tenetur minus velit id alias numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aspernatur consequuntur aliquid maiores tempore tenetur ea aperiam vero veritatis, vel dolor nam ipsam accusantium adipisci sit velit impedit minima recusandae!.  
+</h2>
+
+<h2 style="text-align: center" class="infoProductora espacioArriba">CONTENIDO DE LGC:</h2>
+
+
+<h3 class="tituloPoster espacioArriba">Victoria</h3>
+
+<div class="disp espacioChicoArriba"><img src="./../img/poster.png" alt="" class="posterProductora"></div>
+<div class="disp espacioChicoArriba"><p class="descripcionPoster">Corto</p></div>
+
+<p class="infoPoster espacioChicoArriba">Un famoso cantante tiene un rotundo éxito en su carrera pero, entre gira y gira, un profundo dolor en su corazón lo asalta al recordar el fallecimiento de su hija, Victoria.</p>
+
+
+<div class="disp espacioArriba"> <a href="./../contenido/victoria"><button type="button" class="btn btn-primary botonPoster">VER VICTORIA</button></a></div>
+
+
+<br><br><br>
+
+    <!-- bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    
+</body>
+</html>
