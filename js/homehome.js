@@ -34,14 +34,30 @@ lacaza2.addEventListener("click", () => {
     )
 })
 
-let thor = document.getElementById("thor");
+let relatosvideos = document.getElementById("relatosvideo");
 
-thor.addEventListener("click", () => {
+relatosvideos.addEventListener("click", () => {
   window.open(
-    "https://www.google.com/thor", "_self"
+    "./../contenido/relatos-narrados", "_self"
     )
 })
 
+
+let relatosvideos2 = document.getElementById("relatosvideo2");
+
+relatosvideos2.addEventListener("click", () => {
+  window.open(
+    "./../contenido/relatos-narrados", "_self"
+    )
+})
+
+let relatosvideos3 = document.getElementById("relatosvideo3");
+
+relatosvideos3.addEventListener("click", () => {
+  window.open(
+    "./../contenido/relatos-narrados", "_self"
+    )
+})
 
 let thor2 = document.getElementById("thor2");
 
